@@ -37,12 +37,11 @@ body {
 }
 
 .mobile-menu {
-    margin: 0;
     max-width: 320px;
     height: 100dvh;
     display: flex;
     flex-direction: column;
-    gap: 26px;
+    gap: 46px;
     padding: 18px 24px 32px;
     background-color: var(--color-main);
     box-shadow: 16px 0 52px 0 var(--color-shadow);
@@ -92,7 +91,6 @@ button:hover {
     display: flex;
     flex-direction: column;
     gap: 32px;
-    margin: 0;
 }
 
 .menu__item {
@@ -133,7 +131,6 @@ button:hover {
     display: flex;
     gap: 16px;
 }
-
 
 .footer__tel {
     font-family: "TT Lakes Bold", sans-serif;
